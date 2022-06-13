@@ -1,0 +1,102 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.imglogo{
+  min-width:120px;
+  max-height:35px;
+}
+nav{
+  background-color: #4577dc;
+}
+.mainsignup{
+  margin: auto;
+}
+.signup-content{
+  
+  margin: auto;
+
+  min-height: 400px;
+  max-width: 700px;
+  border-style: dashed;
+ 
+  border-color: #282c34;
+
+  
+
+}
+.signup-form{
+  float:left;
+  margin-top: 10px;
+  border-style: dashed;
+ 
+  border-color: #34d81b;
+ 
+  
+}
+.signup-img{
+  
+  float:left;
+  margin-top: 10px;
+  border-style: dashed;
+ 
+  border-color: #282c34;
+
+  
+}
+.form-submit{
+  margin: auto;
+  background-color: #0c83e4;
+  border-radius: 10px;
+  border-style: none;
+  color: rgb(250, 250, 250);
+}
+#contact_form{
+  margin: auto;
+  align-items: center;
+}
+
+.home-page{
+  margin: auto;
+  text-align: center;
+}
+/* .profimg{
+  max-height: 200px;
+} */
+#notfound{
+  margin-top: 20px;
+}
